@@ -1,7 +1,7 @@
 # GitLab CI Dashboard
 
 [![Build Status](https://travis-ci.org/emilianoeloi/gitlab-ci-dashboard.svg?branch=v3.7.0)](https://travis-ci.org/emilianoeloi/gitlab-ci-dashboard) [![codecov](https://codecov.io/gh/emilianoeloi/gitlab-ci-dashboard/branch/master/graph/badge.svg)](https://codecov.io/gh/emilianoeloi/gitlab-ci-dashboard) [![npm-version](https://img.shields.io/npm/v/gitlab-ci-dashboard.svg?style=flat-square)](https://www.npmjs.com/package/gitlab-ci-dashboard)
-[![npm-downloads](https://img.shields.io/npm/dt/gitlab-ci-dashboard.svg?style=flat-square)](https://www.npmjs.com/package/gitlab-ci-dashboard)
+[![npm-downloads](https://img.shields.io/npm/dt/gitlab-ci-dashboard.svg?style=flat-square)](https://www.npmjs.com/package/gitlab-ci-dashboard) [![license](https://img.shields.io/npm/l/gitlab-ci-dashboard.svg)](LICENSE)
 
 Dashboard for monitoring [GitLab CI][gitlab-ci] builds. This project is based on [gitlab-ci-monitor](https://github.com/globocom/gitlab-ci-monitor) by globo.com.
 
