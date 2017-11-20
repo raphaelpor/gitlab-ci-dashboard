@@ -2,8 +2,8 @@ language: node_js
 node_js:
   - "7"
 before_script:
-  - npm install
+  - yarn
 script:
-  - npm run unit
+  - yarn unit
 after_success:
-  - npm run report-coverage
+  - yarn report-coverage
