@@ -4,22 +4,22 @@
   "description": "Dashboard for monitoring GitLab CI builds. This project is based on gitlab-ci-monitor by globo.com",
   "author": "Emiliano Barbosa <emilianoeloi@gmail.com>",
   "license": "MIT",
-  "scripts": {
-    "dev": "node build/dev-server.js",
-    "start": "npm run dev",
-    "build": "node build/build.js && cp -R dist/* standalone/",
-    "unit": "jest test/unit/specs --coverage",
-    "report-coverage": "codecov",
-    "test": "npm run unit",
-    "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
-    "server": "http-server ./dist",
-    "gitlab-mocked-server": "node mocked_gitlab/server.js"
-  },
   "homepage": "https://github.com/emilianoeloi/gitlab-ci-dashboard",
   "bugs": "https://github.com/emilianoeloi/gitlab-ci-dashboard/issues",
   "repository": {
     "type": "git",
     "url": "https://github.com/emilianoeloi/gitlab-ci-dashboard"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "start": "npm run dev",
+    "unit": "jest test/unit/specs --coverage",
+    "test": "npm run unit",
+    "lint": "eslint --ext .js,.vue src test/unit/specs",
+    "build": "node build/build.js",
+    "report-coverage": "codecov",
+    "server": "http-server ./dist",
+    "gitlab-mocked-server": "node mocked_gitlab/server.js"
   },
   "keywords": [
     "gitlab",
@@ -56,7 +56,7 @@
     "babel-preset-stage-2": "6.22.0",
     "babel-register": "6.22.0",
     "chalk": "2.0.1",
-    "codecov": "^3.0.0",
+    "codecov": "3.0.0",
     "copy-webpack-plugin": "4.0.1",
     "css-loader": "0.28.0",
     "eslint": "3.19.0",
@@ -93,7 +93,6 @@
     "webpack": "3.6.0",
     "webpack-bundle-analyzer": "2.9.0",
     "webpack-dev-server": "2.9.1",
-    "webpack-hot-middleware": "^2.20.0",
     "webpack-merge": "4.1.0"
   },
   "jest": {
