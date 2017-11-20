@@ -1,8 +1,7 @@
 # GitLab CI Dashboard
 
-[![NPM](https://nodei.co/npm/gitlab-ci-dashboard.png)](https://npmjs.org/package/gitlab-ci-dashboard)
-
-[![Build Status](https://travis-ci.org/emilianoeloi/gitlab-ci-dashboard.svg?branch=v3.7.0)](https://travis-ci.org/emilianoeloi/gitlab-ci-dashboard) [![codecov](https://codecov.io/gh/emilianoeloi/gitlab-ci-dashboard/branch/master/graph/badge.svg)](https://codecov.io/gh/emilianoeloi/gitlab-ci-dashboard)
+[![Build Status](https://travis-ci.org/emilianoeloi/gitlab-ci-dashboard.svg?branch=v3.7.0)](https://travis-ci.org/emilianoeloi/gitlab-ci-dashboard) [![codecov](https://codecov.io/gh/emilianoeloi/gitlab-ci-dashboard/branch/master/graph/badge.svg)](https://codecov.io/gh/emilianoeloi/gitlab-ci-dashboard) [![npm-version](https://img.shields.io/npm/v/gitlab-ci-dashboard.svg?style=flat-square)](https://www.npmjs.com/package/gitlab-ci-dashboard)
+[![npm-downloads](https://img.shields.io/npm/dt/gitlab-ci-dashboard.svg?style=flat-square)](https://www.npmjs.com/package/gitlab-ci-dashboard)
 
 Dashboard for monitoring [GitLab CI][gitlab-ci] builds. This project is based on [gitlab-ci-monitor](https://github.com/globocom/gitlab-ci-monitor) by globo.com.
 
@@ -180,3 +179,5 @@ https://scotch.io/tutorials/how-to-write-a-unit-test-for-vuejs
 ## License
 
 GitLab CI Dashboard is licensed under the [MIT license](LICENSE).
+
+[![NPM](https://nodei.co/npm/gitlab-ci-dashboard.png)](https://npmjs.org/package/gitlab-ci-dashboard)
